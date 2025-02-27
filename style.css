@@ -3,3 +3,67 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Header */
+h1 {
+  margin: 20px 0;
+}
+
+nav {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Main Content */
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.image-container {
+  width: 60%;
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.address {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.text-content {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Footer */
+.footer {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.footer .contact, .footer .correspondence, .footer .links, .footer .follow {
+  width: 20%;
+}
